@@ -81,7 +81,7 @@ body {
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
     .change {
-        background-color: #f55c47;
+        background-color: black;
         margin: 0;
         position: absolute;
         font-size: 30px;
