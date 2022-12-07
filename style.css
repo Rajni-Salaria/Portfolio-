@@ -148,7 +148,7 @@ body {
         color: #cfbdbd;
         font-size: 16px;
         width: 314px;
-        margin: 27px 33px 0px 33px;
+        margin: 27px 33px 30px 33px;
         line-height: 42px;
     }
 }
@@ -211,6 +211,18 @@ button a:hover {
     color: black;
     background-color: white;
     font-family: cursive;
+}
+
+.icon {
+    color: #201d1d;
+    /* display: flex; */
+    font-size: 20px;
+    margin: 0px 0 0 0px;
+}
+
+.icon i:hover {
+    transform: rotateZ(360deg);
+    transition-duration: 0.8s;
 }
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
